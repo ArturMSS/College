@@ -1,0 +1,133 @@
+/* Estilos Gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Fundo claro para uma aparência leve */
+  color: #333; /* Texto escuro para boa legibilidade */
+  line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+header {
+  background-color: #007BFF; /* Azul como cor primária */
+  color: white; /* Texto branco no cabeçalho */
+  padding: 20px;
+  text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+  margin: 0; /* Remove margens para um melhor espaçamento */
+  font-size: 2.2em; /* Reduzido para evitar sobrecarga visual */
+}
+
+h2 {
+  color: #007BFF; /* Cor azul para subtítulos */
+  margin-top: 20px; /* Reduz o espaçamento para melhorar o fluxo */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  text-align: center;
+}
+
+p {
+  margin: 10px 0; /* Margens ajustadas para maior legibilidade */
+}
+
+/* Estilos do Formulário */
+main {
+  max-width: 900px; /* Largura ajustada para melhorar a responsividade */
+  margin: 20px auto; /* Centraliza o formulário na página */
+  padding: 20px;
+  background-color: white; /* Fundo branco para o formulário */
+  border-radius: 8px; /* Suaviza os cantos */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Reduz a intensidade da sombra */
+}
+
+/* Estilo da Tabela */
+table {
+  width: 100%; /* Tabela ocupa 100% da largura */
+  border-collapse: collapse; /* Remove espaço entre bordas */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Borda clara para as células */
+  padding: 12px; /* Aumenta o espaçamento interno das células */
+  text-align: left; /* Alinhamento à esquerda para melhor leitura */
+}
+
+th {
+  background-color: #f2f2f2; /* Fundo cinza claro para cabeçalhos de tabela */
+}
+
+td {
+  vertical-align: top; /* Alinhamento superior das células */
+}
+
+/* Define a largura fixa para as caixas de texto */
+input[type="text"], input[type="date"], textarea {
+  width: 100%; /* Largura total para consistência */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Ajuste mais sutil nos cantos */
+}
+
+/* Mantém a altura fixa para o textarea e impede redimensionamento */
+textarea {
+  height: 120px; /* Define uma altura ligeiramente maior */
+  resize: none; /* Impede o redimensionamento manual */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  border-color: #007BFF; /* Cor de borda azul ao focar */
+  outline: none; /* Remove o contorno padrão */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Sombra suave ao focar */
+}
+
+/* Estilos dos Botões */
+button {
+  background-color: #28a745; /* Verde para botões */
+  color: white; /* Texto branco */
+  padding: 12px 30px; /* Aumenta o espaçamento interno do botão */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor de ponteiro */
+  font-size: 1.1em; /* Aumenta um pouco o tamanho da fonte */
+  margin-top: 20px; /* Margem superior para separação */
+  display: block; /* Garante que o botão seja um bloco */
+  width: 100%; /* Largura total */
+  margin-left: auto; /* Centraliza o botão */
+  margin-right: auto; /* Centraliza o botão */
+  transition: background-color 0.3s, transform 0.2s; /* Transições suaves de cor e transformação */
+}
+
+button:hover {
+  background-color: #218838; /* Escurece ao passar o mouse */
+  transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+}
+
+button:active {
+  transform: translateY(0); /* Retorna ao normal ao clicar */
+}
+
+/* Estilos das Etiquetas de Rádio e Checkbox */
+.radio-label {
+  display: inline-flex; /* Exibe o rótulo e o botão rádio em linha */
+  align-items: center; /* Alinha verticalmente o botão com o texto */
+  margin-right: 20px; /* Espaçamento entre os rótulos */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px; /* Espaçamento à direita dos botões */
+}
+
+/* Rodapé */
+footer {
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 15px;
+  background-color: #f1f1f1; /* Fundo claro para o rodapé */
+  margin-top: 20px; /* Margem superior */
+  font-size: 0.9em; /* Tamanho da fonte do rodapé */
+  color: #666; /* Cor de texto mais suave */
+}
